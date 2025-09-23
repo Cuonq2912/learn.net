@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lessons", "Lessons", "{B7D82355-7097-430D-A092-7B787E186EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01_HelloWorld", "Lessons\Lesson01_HelloWorld\Lesson01_HelloWorld.csproj", "{82D9179D-209A-4CDA-A27D-8C69EBE47066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02_Variables", "Lessons\Lesson02_Variables\Lesson02_Variables.csproj", "{7589395E-8DAA-4299-8ACF-1CD14688DCC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson03_ControlStructures", "Lessons\Lesson03_ControlStructures\Lesson03_ControlStructures.csproj", "{D9B10738-C606-4406-92A6-F75180261BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson04_Methods", "Lessons\Lesson04_Methods\Lesson04_Methods.csproj", "{D4E53AB3-CFD4-4182-B23E-09A5C3FCF559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05_OOP", "Lessons\Lesson05_OOP\Lesson05_OOP.csproj", "{0F129B16-B539-4547-8348-DDCE9E964ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson06_Collections", "Lessons\Lesson06_Collections\Lesson06_Collections.csproj", "{D5D31B0D-9EA8-48A5-BC4A-A8AC9254E47C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82D9179D-209A-4CDA-A27D-8C69EBE47066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D9179D-209A-4CDA-A27D-8C69EBE47066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D9179D-209A-4CDA-A27D-8C69EBE47066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D9179D-209A-4CDA-A27D-8C69EBE47066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7589395E-8DAA-4299-8ACF-1CD14688DCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7589395E-8DAA-4299-8ACF-1CD14688DCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7589395E-8DAA-4299-8ACF-1CD14688DCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7589395E-8DAA-4299-8ACF-1CD14688DCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B10738-C606-4406-92A6-F75180261BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B10738-C606-4406-92A6-F75180261BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B10738-C606-4406-92A6-F75180261BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B10738-C606-4406-92A6-F75180261BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E53AB3-CFD4-4182-B23E-09A5C3FCF559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E53AB3-CFD4-4182-B23E-09A5C3FCF559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E53AB3-CFD4-4182-B23E-09A5C3FCF559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E53AB3-CFD4-4182-B23E-09A5C3FCF559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F129B16-B539-4547-8348-DDCE9E964ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F129B16-B539-4547-8348-DDCE9E964ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F129B16-B539-4547-8348-DDCE9E964ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F129B16-B539-4547-8348-DDCE9E964ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D31B0D-9EA8-48A5-BC4A-A8AC9254E47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D31B0D-9EA8-48A5-BC4A-A8AC9254E47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D31B0D-9EA8-48A5-BC4A-A8AC9254E47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D31B0D-9EA8-48A5-BC4A-A8AC9254E47C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82D9179D-209A-4CDA-A27D-8C69EBE47066} = {B7D82355-7097-430D-A092-7B787E186EF4}
+		{7589395E-8DAA-4299-8ACF-1CD14688DCC1} = {B7D82355-7097-430D-A092-7B787E186EF4}
+		{D9B10738-C606-4406-92A6-F75180261BB0} = {B7D82355-7097-430D-A092-7B787E186EF4}
+		{D4E53AB3-CFD4-4182-B23E-09A5C3FCF559} = {B7D82355-7097-430D-A092-7B787E186EF4}
+		{0F129B16-B539-4547-8348-DDCE9E964ECF} = {B7D82355-7097-430D-A092-7B787E186EF4}
+		{D5D31B0D-9EA8-48A5-BC4A-A8AC9254E47C} = {B7D82355-7097-430D-A092-7B787E186EF4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,58 @@
+<Window x:Class="NguyenTrongCuong_2023602667.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nhân viên có tuổi cao nhất" Height="400" Width="600"
+        Background="#FFF8F8DC">
+
+    <!-- ====================== WINDOW RESOURCES ====================== -->
+    <Window.Resources>
+
+        <!-- Style Header DataGrid -->
+        <Style x:Key="HeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Background" Value="#FFF0E68C"/>
+        </Style>
+
+        <!-- Style cho Cell căn giữa -->
+        <Style x:Key="CellStyle" TargetType="DataGridCell">
+            <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+        </Style>
+
+    </Window.Resources>
+    <!-- ====================== END RESOURCES ====================== -->
+
+
+
+    <Grid Margin="10">
+
+        <TextBlock Text="Danh sách nhân viên có tuổi cao nhất"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Foreground="Blue"
+                   HorizontalAlignment="Center"
+                   Margin="0,10"/>
+
+        <DataGrid x:Name="dataGridMax"
+                  Margin="0,60,0,0"
+                  AutoGenerateColumns="False"
+                  FontSize="14"
+                  RowHeight="30"
+                  ColumnWidth="*"
+                  ColumnHeaderStyle="{StaticResource HeaderStyle}"
+                  CellStyle="{StaticResource CellStyle}">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã NV" Binding="{Binding MaNV}" Width="*"/>
+                <DataGridTextColumn Header="Họ tên" Binding="{Binding HoTen}" Width="*"/>
+                <DataGridTextColumn Header="Giới tính" Binding="{Binding GioiTinh}" Width="*"/>
+                <DataGridTextColumn Header="Phòng ban" Binding="{Binding PhongBan}" Width="*"/>
+                <DataGridTextColumn Header="Ngày sinh" Binding="{Binding NgaySinh}" Width="*"/>
+                <DataGridTextColumn Header="Tuổi" Binding="{Binding Tuoi}" Width="*"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+    </Grid>
+
+</Window>

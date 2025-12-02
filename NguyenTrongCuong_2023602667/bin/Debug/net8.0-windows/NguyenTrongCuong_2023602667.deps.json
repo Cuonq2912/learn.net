@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NguyenTrongCuong_2023602667/1.0.0": {
+        "runtime": {
+          "NguyenTrongCuong_2023602667.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NguyenTrongCuong_2023602667/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
